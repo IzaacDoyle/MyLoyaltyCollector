@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="400dp"
+        android:layout_height="725dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/Card_Home_ShopLogo_Create"
+            android:layout_width="134dp"
+            android:layout_height="112dp"
+            android:layout_marginTop="56dp"
+            android:contentDescription="@string/shoplogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/stampDefaultColor" />
+
+
+        <ImageButton
+            android:id="@+id/unstamped_Image_Create"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="83dp"
+            app:layout_constraintBottom_toTopOf="@+id/Card_Home_InfoShop"
+            app:layout_constraintEnd_toStartOf="@+id/stamped_Image_Create"
+            app:layout_constraintHorizontal_bias="0.597"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Card_Home_Title_Create"
+            app:srcCompat="@android:drawable/checkbox_off_background" />
+
+        <ImageButton
+            android:id="@+id/stamped_Image_Create"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="88dp"
+            app:layout_constraintBottom_toTopOf="@+id/Card_Home_InfoShop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/unstamped_Image_Create"
+            app:layout_constraintTop_toBottomOf="@+id/Card_Home_Title_Create"
+            app:layout_constraintVertical_bias="0.011"
+            app:srcCompat="@android:drawable/checkbox_on_background" />
+
+        <EditText
+            android:id="@+id/Card_Home_Title_Create"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="36dp"
+            android:hint="Title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Card_Home_ShopLogo_Create" />
+
+        <EditText
+            android:id="@+id/Card_Home_InfoShop_Create"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="188dp"
+            android:hint="Info"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/Create_Card"
+            android:layout_width="89dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/create"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Card_Home_InfoShop"
+            app:layout_constraintVertical_bias="0.398" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

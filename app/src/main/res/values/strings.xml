@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyLoyaltyCollector</string>
+    <string name="stampimage">stampImage</string>
+    <string name="shoplogo">ShopLogo</string>
+    <string name="create">Create</string>
+    <string name="maps">Maps</string>
+    <string-array name="Shop_Locations">
+        <item>Izaac Shop</item>
+        <item>Erin Shop</item>
+        <item>Kiwi Shop</item>
+
+    </string-array>
+</resources>

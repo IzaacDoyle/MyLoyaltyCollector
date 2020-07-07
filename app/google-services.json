@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "777807877822",
+    "firebase_url": "https://myloyaltycollector-5bc20.firebaseio.com",
+    "project_id": "myloyaltycollector-5bc20",
+    "storage_bucket": "myloyaltycollector-5bc20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777807877822:android:4e105618b141c3cefc70ef",
+        "android_client_info": {
+          "package_name": "doyle.myloyaltycollector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777807877822-jho74uk3v0oi43v37achu8ihb0e1hq30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "doyle.myloyaltycollector",
+            "certificate_hash": "cec697fa9f36b7ded594ad6cfc543d9d100a2cb7"
+          }
+        },
+        {
+          "client_id": "777807877822-tjqec24p5v37o9qm93nh0roajaepl2e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPX1hVCXh7HVJCV0fRNgNGxAJiVp2xek0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777807877822-tjqec24p5v37o9qm93nh0roajaepl2e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

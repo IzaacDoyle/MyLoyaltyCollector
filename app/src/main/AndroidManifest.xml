@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="doyle.myloyaltycollector">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo_mlc"
+        android:label="My Loyalty Collector"
+        android:roundIcon="@mipmap/ic_logo_mlc_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+
+        >
+
+
+        <activity android:name=".Splash_Start_Screen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".StartUp_Screen_Start">
+
+        </activity>
+
+        <activity android:name=".Main_Screen_Menu"></activity>
+
+        <activity android:name=".Maps_Participating_Stores"></activity>
+
+        <activity android:name=".account.CreateAccount"></activity>
+
+        <activity android:name=".Card_handler_Activity"></activity>
+
+        <activity android:name=".CreateCard_Activity"></activity>
+
+        <activity android:name=".QrScannerShop"></activity>
+
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDg7kwtWCTagiLUB6d_Sqzu3oKmOMz7Iho" />
+    </application>
+
+</manifest>

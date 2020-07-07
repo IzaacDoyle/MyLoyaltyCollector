@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/Stamp1"
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+
+                android:contentDescription="@string/stampimage"
+                android:padding="5dp"
+                tools:srcCompat="@color/stampDefaultColor" />
+
+            <ImageView
+                android:id="@+id/Stamp2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/stampimage"
+                android:cropToPadding="true"
+                android:padding="5dp"
+                tools:srcCompat="@color/stampDefaultColor" />
+
+            <ImageView
+                android:id="@+id/Stamp3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/stampimage"
+                android:cropToPadding="true"
+                android:padding="5dp"
+                tools:srcCompat="@color/stampDefaultColor" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/Stamp4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/stampimage"
+                android:padding="5dp"
+                tools:srcCompat="@color/stampDefaultColor" />
+
+            <ImageView
+                android:id="@+id/Stamp5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/stampimage"
+                android:cropToPadding="true"
+                android:padding="5dp"
+                tools:srcCompat="@color/stampDefaultColor" />
+
+            <ImageView
+                android:id="@+id/Stamp6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/stampimage"
+                android:cropToPadding="true"
+                android:padding="5dp"
+                tools:srcCompat="@color/stampDefaultColor" />
+
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
